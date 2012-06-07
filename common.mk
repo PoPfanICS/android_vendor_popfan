@@ -63,7 +63,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
        vendor/cm/config/permissions/com.tmobile.software.themes.xml:system/etc/permissions/com.tmobile.software.themes.xml
 
-# Required CM packages (PoPfan removed) (Camera)
+# Required CM packages
 PRODUCT_PACKAGES += \
     LatinIME \
     Superuser \
@@ -71,6 +71,7 @@ PRODUCT_PACKAGES += \
     su
 
 PRODUCT_PACKAGES += \
+    ApolloMusic \
     SoundRecorder \
     LiveWallpapersPicker
 
