@@ -85,7 +85,6 @@ PRODUCT_COPY_FILES += \
     device/semc/shakira/prebuilt/app/PhotoWidget.apk:system/app/PhotoWidget.apk \
     device/semc/shakira/prebuilt/app/WeatherWidget.apk:system/app/WeatherWidget.apk \
     device/semc/shakira/prebuilt/app/WidgetPicker.apk:system/app/WidgetPicker.apk \
-    device/semc/shakira/prebuilt/app/RootExplorer.apk:system/app/RootExplorer.apk \
     device/semc/shakira/prebuilt/app/SRSPanel.apk:system/app/SRSPanel.apk \
     device/semc/shakira/prebuilt/app/Term.apk:system/app/Term.apk \
     device/semc/shakira/prebuilt/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
