@@ -71,7 +71,7 @@ PRODUCT_PACKAGES += \
     su
 
 PRODUCT_PACKAGES += \
-    ApolloMusic \
+    Apollo \
     SoundRecorder \
     LiveWallpapersPicker
 
