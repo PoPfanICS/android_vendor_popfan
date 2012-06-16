@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
 
 # init.d support
 PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
+    vendor/popfan/prebuilt/etc/init.d/00banner:system/etc/init.d/00banner \
     vendor/cm/prebuilt/common/bin/sysinit:system/bin/sysinit
 
 # userinit support
@@ -91,8 +91,8 @@ PRODUCT_COPY_FILES += \
     device/semc/shakira/prebuilt/etc/SRSAudioFilter.csv:system/etc/SRSAudioFilter.csv \
     device/semc/shakira/prebuilt/lib/soundfx/libsrsfx.so:system/lib/soundfx/libsrsfx.so \
     device/semc/shakira/prebuilt/lib/soundfx/libsrstb.so:system/lib/soundfx/libsrstb.so \
-    device/semc/shakira/prebuilt/lib/libjackpal-androidterm3.so:system/lib/libjackpal-androidterm3.so
-
+    device/semc/shakira/prebuilt/lib/libjackpal-androidterm3.so:system/lib/libjackpal-androidterm3.so \
+    vendor/popfan/prebuilt/update-binary:obj/EXECUTABLES/updater_intermediates/updater
 # Custom CM packages
 PRODUCT_PACKAGES += \
     audio_effects.conf
@@ -104,11 +104,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/dictionaries
 PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
-PRODUCT_VERSION_MAJOR = PoPfan
+PRODUCT_VERSION_MAJOR = PoPfan 
 PRODUCT_VERSION_MINOR = ICS
 PRODUCT_VERSION_MAINTENANCE = v
 
-CM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)$(PRODUCT_VERSION_DEVICE_SPECIFIC)-KANG
+CM_NAME := $(PRODUCT_VERSION_MAJOR)$(PRODUCT_VERSION_MINOR)
+CM_VERSION := $(PRODUCT_VERSION_MAINTENANCE)$(PRODUCT_VERSION_DEVICE_SPECIFIC)
 
-PRODUCT_PROPERTY_OVERRIDES += ro.cm.version=$(CM_VERSION)
+PRODUCT_PROPERTY_OVERRIDES += ro.cm.name=$(CM_NAME) ro.cm.version=$(CM_VERSION)
 

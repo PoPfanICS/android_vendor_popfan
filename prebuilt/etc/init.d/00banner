@@ -1,0 +1,18 @@
+#!/system/bin/sh
+#
+# Print startup info
+#
+L="log -p i -t cm"
+
+$L "Welcome to Android `getprop ro.build.version.release` / `getprop ro.cm.name` `getprop ro.cm.version`";
+$L "                                                                                          ";
+$L "8888888b.           8888888b.   .d888                       8888888  .d8888b.   .d8888b.  ";
+$L "888   Y88b          888   Y88b d88P'                          888   d88P  Y88b d88P  Y88b ";
+$L "888    888          888    888 888                            888   888    888 Y88b.      ";
+$L "888   d88P  .d88b.  888   d88P 888888  8888b.  88888b.        888   888         'Y888b.   ";
+$L "8888888P'  d88''88b 8888888P'  888        '88b 888 '88b       888   888            'Y88b. ";
+$L "888        888  888 888        888    .d888888 888  888       888   888    888       '888 ";
+$L "888        Y88..88P 888        888    888  888 888  888       888   Y88b  d88P Y88b  d88P ";
+$L "888         'Y88P'  888        888    'Y888888 888  888     8888888  'Y8888P'   'Y8888P'  ";
+$L " Created by.: Daveee10                                                                    ";
+$L "                                                                                          ";
