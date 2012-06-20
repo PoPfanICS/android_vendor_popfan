@@ -1,5 +1,31 @@
 PoPfan
 ===========
+### v11:
+* Fixed:
+ -Statusbar brightness control
+
+* Changed:
+ -Activity manager
+ 
+* Added:
+ -Show Reboot toggle
+ -Shpw Profile toggle
+ -Show ringer mode toggle
+ -Show alarm icon toggle
+ -Reccent apps on status bar
+ -New PoPfan wallpaper (Thanks: erneszto)
+ -Adreno tweaks [nobodyAtall (MiniCM9)]
+ -OpenMax tweaks [nobodyAtall (MiniCM9)]
+ -Headset remove with safety volume (CM)
+ -Lockscreen weather (CM)
+ -Lockscreen calendar (CM)
+ -Lockscreen background (CM)
+ -Notification counter (CM)
+
+* Extras:
+ -Newest android source
+ -Newest CyanogenMod source
+
 ### v10:
 * Fixed:
  -Sim locking dialog skipping hack

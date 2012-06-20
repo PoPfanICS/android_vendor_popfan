@@ -92,7 +92,10 @@ PRODUCT_COPY_FILES += \
     device/semc/shakira/prebuilt/lib/soundfx/libsrsfx.so:system/lib/soundfx/libsrsfx.so \
     device/semc/shakira/prebuilt/lib/soundfx/libsrstb.so:system/lib/soundfx/libsrstb.so \
     device/semc/shakira/prebuilt/lib/libjackpal-androidterm3.so:system/lib/libjackpal-androidterm3.so \
-    vendor/popfan/prebuilt/update-binary:obj/EXECUTABLES/updater_intermediates/updater
+    vendor/popfan/prebuilt/update-binary:obj/EXECUTABLES/updater_intermediates/updater \
+    vendor/popfan/prebuilt/etc/01_qcomm_omx.cfg:system/etc/01_qcomm_omx.cfg \
+    vendor/popfan/prebuilt/etc/adreno_config.txt:system/etc/adreno_config.txt
+
 # Custom CM packages
 PRODUCT_PACKAGES += \
     audio_effects.conf
