@@ -1,11 +1,25 @@
 PoPfan
 ===========
+### v12:
+* Fixes:
+ -Camera
+
+* Added:
+ -Partition info
+ -Change USB Mass Storage status image (missing from last version)
+ -Lockscreen branding
+ -New alarm clock [ACheap]
+
+* Removed:
+ -Notification area custom text
+
 ### v11:
-* Fixed:
+* Fixes:
  -Statusbar brightness control
 
 * Changed:
  -Activity manager
+ -Rom version format in About Phone
  
 * Added:
  -Show Reboot toggle
@@ -27,7 +41,7 @@ PoPfan
  -Newest CyanogenMod source
 
 ### v10:
-* Fixed:
+* Fixes:
  -Sim locking dialog skipping hack
  -Reboot/Reboot recovery
 
